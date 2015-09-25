@@ -1,0 +1,239 @@
+{
+    "AuxAudioDevice1": {
+        "enabled": true,
+        "flags": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": [],
+            "libobs.unmute": []
+        },
+        "id": "coreaudio_input_capture",
+        "mixers": 15,
+        "muted": false,
+        "name": "Mic/Aux",
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "settings": {
+            "device_id": "default"
+        },
+        "sync": 0,
+        "volume": 1.0
+    },
+    "current_scene": "Talk",
+    "name": "Hoa Apex",
+    "scene_order": [
+        {
+            "name": "Poster"
+        },
+        {
+            "name": "Talk"
+        }
+    ],
+    "sources": [
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Background": [],
+                "libobs.hide_scene_item.Face": [],
+                "libobs.hide_scene_item.Screen": [],
+                "libobs.show_scene_item.Background": [],
+                "libobs.show_scene_item.Face": [],
+                "libobs.show_scene_item.Screen": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Talk",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Background",
+                        "pos": {
+                            "x": -58.0,
+                            "y": -880.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.4986666440963745,
+                            "y": 1.4984999895095825
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Face",
+                        "pos": {
+                            "x": 2522.0,
+                            "y": 1246.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": -0.44218748807907104,
+                            "y": 0.44166666269302368
+                        },
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Screen",
+                        "pos": {
+                            "x": 40.0,
+                            "y": 41.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 0.79570311307907104,
+                            "y": 0.79562497138977051
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "display_capture",
+            "mixers": 0,
+            "muted": false,
+            "name": "Screen",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {},
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 1,
+            "hotkeys": {},
+            "id": "av_capture_input",
+            "mixers": 0,
+            "muted": false,
+            "name": "Face",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "buffering": false,
+                "device": "DJH5221HSFNG1HPA3",
+                "device_name": "FaceTime HD Camera"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.Hoa": [],
+                "libobs.show_scene_item.Hoa": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "muted": false,
+            "name": "Poster",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "name": "Hoa",
+                        "pos": {
+                            "x": -218.0,
+                            "y": -215.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Hoa",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "/Users/hywan/Library/Application Support/obs-studio/basic/scenes/Hoa_Apex_assets/Poster.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "muted": false,
+            "name": "Background",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "/Users/hywan/Library/Application Support/obs-studio/basic/scenes/Hoa_Apex_assets/Background.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        }
+    ]
+}
