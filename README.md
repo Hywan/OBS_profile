@@ -1,8 +1,13 @@
-# OBS Profile
+# ![OBS](https://obsproject.com/images/OBSLogo80.png)
+
+https://obsproject.com/
 
 ## Installation
 
-Clone this repository.
+Clone this repository. Then copy files to the OBS profile (or use this
+repository as the profile directory directly). To open the directory of the OBS
+profile, open the application and then open the “File” menu to select the “Show
+Settings” item.
 
 ## Set up
 
